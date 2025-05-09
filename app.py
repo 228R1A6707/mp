@@ -3,8 +3,8 @@ import pandas as pd
 
 # Title
 st.set_page_config(page_title="Game Recommender", layout="centered")
-st.title("🎮 Game Recommender")
-
+st.title("🎮 AI-Powered Recommendation System")
+st.subheader("Recommended Games:")
 # Load data
 @st.cache_data
 def load_data():
